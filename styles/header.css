@@ -2,7 +2,7 @@
     display: none;
 } 
 
-header {            /* general distribution */
+.navbar {            /* general distribution */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: var(--dark-jungle-green);
@@ -16,7 +16,7 @@ header {            /* general distribution */
     z-index: 1;
 }
 
-.logo_name {            /* Logo size */
+.navbar__logo {            /* Logo size */
     height: 100%;
     max-width: 30rem;
     display: flex;
@@ -33,7 +33,7 @@ header {            /* general distribution */
     cursor: pointer;
 }
 
-.name {             /* size of name on header */
+.navbar__name {             /* size of name on header */
     font-size: var(--xlg);
 }
 
