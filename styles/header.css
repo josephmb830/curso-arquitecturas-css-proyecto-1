@@ -14,6 +14,11 @@
     position: sticky;
     font-size: var(--medium);
     z-index: 1;
+     width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar__logo {            /* Logo size */
@@ -24,7 +29,7 @@
     align-items: center;
 }
 
-.logo_name img, .menu-icon--span img {          /* general imgs size */
+.navbar__logo img, .menu-icon--span img {          /* general imgs size */
     height: 50%;
     object-fit: cover;
 }
@@ -35,6 +40,11 @@
 
 .navbar__name {             /* size of name on header */
     font-size: var(--xlg);
+}
+
+.navbar__menu-icon,
+.nav-list {
+    
 }
 
 .nav-header {
@@ -129,7 +139,7 @@
         transform: translateY(0%);
     }
 
-    .nav-header ul li a {   /* a base styles */
+    .nav__link {   /* a base styles */
         font-weight: lighter;
     }
 
